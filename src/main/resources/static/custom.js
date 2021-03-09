@@ -13,7 +13,10 @@ function initMap() {
 
     for (i=0; i<busLocations.length; i++){
         var marker = new google.maps.Marker({
-            position: { lat: parseFloat(busLocations[i].LATITUDE), lng: parseFloat(busLocations[i].LONGITUDE) },
+            position: {
+                lat: parseFloat(busLocations[i].LATITUDE),
+                lng: parseFloat(busLocations[i].LONGITUDE)
+            },
             map: map,
         });
     }
