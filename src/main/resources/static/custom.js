@@ -34,23 +34,4 @@ function initMap() {
 
     }//end for
 
-//    let busNum = busLocations[i].VEHICLE;
-//    let contentString = '<h2> Bus#:' + busNum + ' will print here</h2>';
-
-
-    //may need to delete this down to line 40
-    /*
-    const transitLayer = new google.maps.TransitLayer();
-          transitLayer.setMap(map);
-        const trafficLayer = new google.maps.TrafficLayer();
-          trafficLayer.setMap(map);
-
-            let contentString = '<h2> Bus#:' + busNum + ' will print here</h2>';
-
-          let infowindow = new google.maps.InfoWindow({
-                content: contentString
-            })
-        google.maps.event.addListener(marker, 'click', () => infowindow.open(map, marker));
-    */
-
 }//end initMap()
